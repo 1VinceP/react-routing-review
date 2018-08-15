@@ -7,6 +7,7 @@ import routes from './routes';
 class App extends Component {
     render() {
         return (
+            // HashRouter is necessary to use routing in your app
             <HashRouter>
                 {routes}
             </HashRouter>
